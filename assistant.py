@@ -36,7 +36,7 @@ while True:
     try:
         user_query= input("You: ")
         if user_query.upper() in ['EXIT','QUIT','BYE']:
-            print('Assistant: Goodbye! have a nice day.')
+            print('Assistant: Goodbye! have a nice day!!')
             break
 
         response = chain.invoke({'question': user_query})
